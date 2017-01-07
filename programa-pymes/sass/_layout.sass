@@ -1,0 +1,79 @@
+#wrapper
+	display: -ms-flex
+	display: -webkit-flex
+	display: flex
+	flex-direction: column
+	font-family: $font
+	background-color: $background
+
+.image-plan
+	width: 90%
+	margin: 1em auto 2em
+	border-bottom: 1px solid #CCC
+	text-align: center
+
+	.micro
+		max-width: 100%
+
+	.limit-time
+		font-style: italic
+		color: $text
+		font-size: 0.8em
+
+.header
+	width: 95%
+	margin: 0 auto
+
+	.logo-cont
+		width: 100%
+		text-align: center
+	
+	.logo
+		max-width: 100%
+
+	.description
+		color: $text
+		text-align: center
+
+		.text-bold
+			color: $text-bold
+
+.contact
+	width: 100%
+	
+	.form-contact
+		display: -ms-flex
+		display: -webkit-flex
+		display: flex
+		flex-direction: column
+		width: 90%
+		margin: 0 auto
+
+	input
+		margin: 1em 0
+		border: 0
+		box-shadow: 0px 0px 2px $text
+		color: $text-bold
+		padding: 0.5em
+
+	textarea
+		@extend input
+
+	.submit
+		background-color: $botton
+		border: 0px none
+		padding: 0.5em 2em
+		float: right
+		color: $background
+		border-radius: 2px
+		letter-spacing: 0.05em
+		align-self: flex-end
+
+	.offer
+		color: $text-bold
+		margin: 2em 0px 1em
+		font-size: 0.8em
+
+.footer
+	width: 100%
+	text-align: center
